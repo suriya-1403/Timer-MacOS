@@ -36,17 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		51CC65EE267E0DB0008D1255 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51CC65EE267E0DB0008D1255 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Timer.app; path = /Users/suriya/Documents/Github/Timer/build/Debug/Timer.app; sourceTree = "<absolute>"; };
 		51CC65F1267E0DB0008D1255 /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
 		51CC65F3267E0DB0008D1255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51CC65F5267E0DB0008D1255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51CC65F8267E0DB0008D1255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51CC65FA267E0DB0008D1255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51CC65FB267E0DB0008D1255 /* Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Timer.entitlements; sourceTree = "<group>"; };
-		51CC6600267E0DB0008D1255 /* TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51CC6600267E0DB0008D1255 /* TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TimerTests.xctest; path = /Users/suriya/Documents/Github/Timer/build/Debug/TimerTests.xctest; sourceTree = "<absolute>"; };
 		51CC6604267E0DB0008D1255 /* TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTests.swift; sourceTree = "<group>"; };
 		51CC6606267E0DB0008D1255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51CC660B267E0DB0008D1255 /* TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51CC660B267E0DB0008D1255 /* TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TimerUITests.xctest; path = /Users/suriya/Documents/Github/Timer/build/Debug/TimerUITests.xctest; sourceTree = "<absolute>"; };
 		51CC660F267E0DB0008D1255 /* TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerUITests.swift; sourceTree = "<group>"; };
 		51CC6611267E0DB0008D1255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51CC661D267E204B008D1255 /* Reflection.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reflection.m4r; sourceTree = "<group>"; };
@@ -83,18 +83,7 @@
 				51CC65F0267E0DB0008D1255 /* Timer */,
 				51CC6603267E0DB0008D1255 /* TimerTests */,
 				51CC660E267E0DB0008D1255 /* TimerUITests */,
-				51CC65EF267E0DB0008D1255 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		51CC65EF267E0DB0008D1255 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				51CC65EE267E0DB0008D1255 /* Timer.app */,
-				51CC6600267E0DB0008D1255 /* TimerTests.xctest */,
-				51CC660B267E0DB0008D1255 /* TimerUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		51CC65F0267E0DB0008D1255 /* Timer */ = {
@@ -224,7 +213,7 @@
 				Base,
 			);
 			mainGroup = 51CC65E5267E0DB0008D1255;
-			productRefGroup = 51CC65EF267E0DB0008D1255 /* Products */;
+			productRefGroup = 51CC65E5267E0DB0008D1255;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
