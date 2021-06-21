@@ -9,9 +9,10 @@ import SwiftUI
 import AVKit
 import AVFoundation
 
-let defaultTimeRemaining: CGFloat = 900
+let defaultTimeRemaining: CGFloat = 9
 let lineWith:CGFloat = 25
 let radius:CGFloat = 50
+var player: AVAudioPlayer!
 
 struct ContentView: View {
     
@@ -62,8 +63,18 @@ struct ContentView: View {
             }
             else{
                 isActive = false
+                let url = Bundle.main.url(forResource: "Reflection", withExtension: "m4r")
+                guard url != nil else {
+                    return
+                }
+                do{
+                    player = try AVAudioPlayer(contentsOf: url!)
+                    player?.play()
+                    player.numberOfLoops = 4
+                }catch{
+                    print("Error on playing the sound")
+                }
                 timeRemaining = defaultTimeRemaining
-                
             }
         })
     }
@@ -74,5 +85,6 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
         }
+
     }
 }
